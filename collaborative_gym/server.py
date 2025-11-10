@@ -149,8 +149,8 @@ async def init_environment(
                             name=AGENT_NAME,
                             type="agent",
                             start_node_base_command="python -m "
-                            "demo_agent.collaborative_agent_with_situational_planning.agent "
-                            "--model-name gpt-4o --wait-time 1 --enhance-user-control",
+                            "demo_agent.basic_collaborative_agent.agent "
+                            "--model-name gemini/gemini-pro-latest --wait-time 1 --enhance-user-control",
                         ),
                     ],
                     100,  # max_steps (Set a large number to support long session)
